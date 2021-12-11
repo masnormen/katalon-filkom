@@ -15,6 +15,6 @@
       <guid>cfd0cc97-7065-4b47-803a-1ca06cd6a0bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/actions/jadwal kuliah ts/as a user, i should be able to change jadwal view type</testCaseId>
+      <testCaseId>Test Cases/cases/jadwal kuliah ts/as a user, i should be able to change jadwal view type</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

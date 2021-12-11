@@ -20,7 +20,7 @@ This project is developed using POM (Page-Object model). I'll try to explain in 
 
 #### Object Repository/
 
-This folder contains **individual objects** (button, links, images, etc) that user can interact with. You can say it is the representation of actual elements on a page. It will be used by our test cases files. The directory structure should follow the actual path that contains that element (URL). For example:
+This folder contains **individual objects** (button, links, images, etc) that user can interact with. You can say it is the representation of actual elements *on a particular page*. It will be used by our test cases files. The directory structure should follow the actual path that contains that element (URL). For example:
 
 - A button for download.
   
@@ -33,7 +33,7 @@ This folder contains **individual objects** (button, links, images, etc) that us
   
   **File path**: `Object Repository/profile/img_profile`
 
-#### Test Cases/pages/
+#### Test Cases/actions/
 
 This folder contains **individual actions** (clicking on a button, upload an image, select a checbox, etc). You can say it is the representation of actions that the user can do *on a particular page*. In doing so, it uses the object stored in `Object Repository`. The directory structure should follow the actual path that contains that element (URL). For example:
 
@@ -41,7 +41,7 @@ This folder contains **individual actions** (clicking on a button, upload an ima
  
   **URL**: `http://mysite.com/software/downloads`
  
-  **Test case file**: `Test Cases/pages/software/downloads/click download button`
+  **Test case file**: `Test Cases/actions/software/downloads/click download button`
 
 - Upload image of user on profile page
  
@@ -49,19 +49,19 @@ This folder contains **individual actions** (clicking on a button, upload an ima
  
   **File path**: `Test Cases/pages/profile/upload user image`
 
-#### Test Cases/actions/
+#### Test Cases/cases/
 
-This folder contains **a set of actions** (ex: going to user profile page, and then change profile picture). You can say it is a representation of **a user's intention** when using the website. In doing so, it uses the test cases in `Test Cases/pages/`. The directory structure should represent the user journey or test suites. For example:
+This folder contains **a set of actions** (ex: going to user profile page, and then change profile picture). You can say it is a representation of **a user's intention** when using the website. In doing so, it uses the test cases in `Test Cases/actions/`. The directory structure should represent the user journey or test suites. For example:
 
 - Changing profile picture (part of User Settings Journey)
   
   **Steps**: call `click user profile button`, call `upload user image`, call `assert upload user image success`
   
-  **File path**: `Test Cases/actions/user settings journey/as a user, i can change my profile picture`
+  **File path**: `Test Cases/cases/user settings journey/as a user, i can change my profile picture`
 
 #### Test Suites
 
-This folder contains **a set of related actions** (ex: change user profile picture, change password, change name, all on user setting page). You can say it is a representation of **a user's journey** when using the website. In doing so, it uses the test cases in `Test Cases/actions/`. The directory structure should represent the user journey or test suites. For example:
+This folder contains **a set of related actions** (ex: change user profile picture, change password, change name, all on user setting page). You can say it is a representation of **a user's journey** when using the website. In doing so, it uses the test cases in `Test Cases/cases/`. The directory structure should represent the user journey or test suites. For example:
 
 - User Settings Journey
   

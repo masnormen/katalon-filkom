@@ -25,19 +25,19 @@ def expectedJadwalHeader = 'Rabu'
 WebUI.openBrowser(GlobalVariable.urlBase)
 
 'click on stakeholder -> mahasiswa'
-WebUI.callTestCase(findTestCase('pages/index/click mahasiswa button'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('actions/index/click mahasiswa button'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'click on jadwal kuliah'
-WebUI.callTestCase(findTestCase('pages/info-mahasiswa/click jadwal kuliah button'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('actions/info-mahasiswa/click jadwal kuliah button'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'switch to jadwal iframe'
 WebUI.switchToFrame(findTestObject('jadwal-kuliah/ifr_jadwal_kuliah'), GlobalVariable.timeOutFast)
 
 'select jadwal by type hari'
-WebUI.callTestCase(findTestCase('pages/jadwal-kuliah/select jadwal by type'), [('value'): jadwalType], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('actions/jadwal-kuliah/select jadwal by type'), [('value'): jadwalType], FailureHandling.STOP_ON_FAILURE)
 
 'select hari rabu'
-WebUI.callTestCase(findTestCase('pages/jadwal-kuliah/select jadwal by hari'), [('value'): jadwalDay], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('actions/jadwal-kuliah/select jadwal by hari'), [('value'): jadwalDay], FailureHandling.STOP_ON_FAILURE)
 
 'assert header text is changed to rabu'
-WebUI.callTestCase(findTestCase('pages/jadwal-kuliah/assert header text'), [('value'): expectedJadwalHeader], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('actions/jadwal-kuliah/assert header text'), [('value'): expectedJadwalHeader], FailureHandling.STOP_ON_FAILURE)
