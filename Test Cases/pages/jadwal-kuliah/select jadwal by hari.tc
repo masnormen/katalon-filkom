@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>select jadwal by hari</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f27da004-9b14-405e-a6bd-3c313681b40b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30e49dc7-d641-4415-9065-7cbd1cd701bf</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>

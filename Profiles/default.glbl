@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Home page URL</description>
+      <initValue>'https://filkom.ub.ac.id'</initValue>
+      <name>urlBase</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>For waiting 10 seconds</description>
+      <initValue>10</initValue>
+      <name>timeOutFast</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

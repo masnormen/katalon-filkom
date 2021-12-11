@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>as a user, i should be able to change jadwal view type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6913bba9-d9cf-4e41-b1d2-1261fc154e8d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>assert header text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f8a17d2-4275-4025-b241-be1fbc7b57ac</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>795835d2-7d8f-4013-8da9-6bc801629aa1</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>

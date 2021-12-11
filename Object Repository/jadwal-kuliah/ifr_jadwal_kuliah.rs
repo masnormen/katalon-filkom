@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ifr_jadwal_kuliah</name>
+   <tag></tag>
+   <elementGuidId>022b02f5-26d8-44b4-bcdf-27767772440d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@data-src='https://filkom.ub.ac.id/legacy/info/jadwal_embedded']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//iframe[@data-src='https://filkom.ub.ac.id/legacy/info/jadwal_embedded']</value>
+   </webElementProperties>
+</WebElementEntity>
