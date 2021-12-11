@@ -47,7 +47,7 @@ This folder contains **individual actions** (clicking on a button, upload an ima
  
   **URL**: `http://mysite.com/profile/`
  
-  **File path**: `Test Cases/pages/profile/upload user image`
+  **File path**: `Test Cases/actions/profile/upload user image`
 
 #### Test Cases/cases/
 
