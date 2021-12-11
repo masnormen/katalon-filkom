@@ -68,23 +68,3 @@ This folder contains **a set of related actions** (ex: change user profile pictu
   **Contains**: `as a user, i can change my profile picture`, `as a user, i can change my username`, `as a user, i can change my password`
   
   **File path**: `Test Suites/user profile journey/user profile journey`
-
-## Development
-
-### Prerequisites
-- Download Katalon Studio 8xx
-- Install Chrome
-- A good internet access
-
-### Setting Up
-- Clone this repository
-- [Open](https://docs.katalon.com//display/KD/Manage+Test+Project) project from Katalon Studio
-- Update your drivers: *Menubar > Tools > Update WebDrivers.*
-
-### Executing a Test Case/Test Suite
-
-![Execute a simple test case](https://github.com/katalon-studio-samples/tips-and-tricks/blob/master/Tutorials/Figures/Execute%20test%20case%20tips%20and%20tricks.png?raw=true)
-
-1. Expand Test Cases/Test Suite in Tests Explorer
-2. Select the test case/suite you want to execute (double-click)
-3. Click the play button near top right of the screen to execute using default browser (Chrome), or select a different browser.
